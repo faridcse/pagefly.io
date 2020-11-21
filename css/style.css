@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+a, a:hover{
+	text-decoration: none;
+}
+
+
+.pagefly-shadow{
+	box-shadow: 0 0px 21px 0 rgba(95,147,180,0.4);
+}
+/***********************************
+          Your Project css start
+***********************************/
+
+/***********************************
+      header-section css start
+***********************************/
+.header-section{
+	width: 100%;
+}
+
+.header-section .navbar{
+    border-bottom: 2px solid #f8f9fa;
+}
+.header-section .navbar-brand {}
+.header-section .navbar-brand img{
+	width: 50%;
+}
+
+.navbar {
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+.navbar-collapse .btn-primary{
+	padding: 10px 30px !important;
+	background: #5F67FF;
+	color: #fff !important;    
+	text-transform: uppercase;
+
+}
+
+.nav-menu-margin{
+	
+}
+
+.fas {
+    font-weight: 900;
+    color: #5f67ff;
+    padding: 10px;
+    border: 1px solid #5f67ff;
+    border-radius: 50%;
+}
+
+.header-section .body-container{
+	padding: 80px 0;
+}
+
+.body-container .body-h1{
+	background: #5F67FF;
+	border-radius: 0 5px 5px 0;
+}
+.body-container .body-h1 h1{
+	padding: 15px 0;
+	font-size: 45px;
+	font-weight: 700;	
+	margin-left: 305px;
+	color: #fff;
+
+}
+
+.body-container .body-inner h2{
+	font-size: 60px;
+    font-weight: 700;
+    color: #5F67FF;
+    padding: 25px 0;
+}
+.body-container .body-inner p{
+	font-size: 30px;
+    font-weight: 700;
+    color: #333;
+}
+.body-container .card{
+	padding: 25px 0;
+	border: 1px solid rgb(0 0 0 / 4%);
+	/*border-top: 6px solid #5F67FF;*/
+}
+
+.body-container .card img{
+	padding: 25px;
+}
+
+.body-container .card-body {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+
+.body-container .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.body-container .card-text:last-child {
+	font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+/***********************************
+      header-section css end
+***********************************/
+
+
+
+.join-us{
+	width: 100%;
+}
+
+.join-us .join-us-left{
+	margin-left: 25px;
+}
+
+/**********************************
+
+***********************************/
+
+.our-partners{
+	width: 100%;
+	padding: 25px 0;
+}
+
+.our-partners .our-partners-header{}
+.our-partners .our-partners-header h2{
+	color: #5F67FF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.our-partners .partner-inner{
+	padding: 10px 5px;
+}
+.our-partners .partner-inner .partner-image{
+	border-top: 6px solid #5f67ff;
+}
+.our-partners .partner-inner .partner-image img{
+	height: 60px;
+}
+.our-partners .partner-inner h3{
+	font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+.our-partners .partner-inner p{
+	font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+
+/**************************************
+		become-our-partner
+**************************************/
+
+.become-our-partner{
+	width: 100%;
+	padding: 50px 0;
+}
+
+.become-our-partner h2{
+	font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    padding: 30px 0;
+}
+
+.become-our-partner .become-our-partner-col h2{
+	font-size: 101px;
+    font-weight: 600;
+    color: #5f67ff;
+}
+.become-our-partner .become-our-partner-col h4{
+	font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+.become-our-partner .become-our-partner-col p{
+	font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+.become-our-partner a{
+	padding: 10px 28px !important;
+	background: #5F67FF;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+
+
+/************ footer-widge *********/
+.footer-widget{
+	width: 100%;
+	background: #333;
+	padding: 50px 0;
+	border-bottom: 1px solid #6d6b6b;
+}
+.footer-widget h4{
+	text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer-widget ul{
+	margin: 0;
+	padding: 0;
+}
+.footer-widget ul li{
+	list-style: none;
+}
+.footer-widget ul li a{
+	font-size: 14px;
+	color: #fff;
+}
+.footer-widget ul li a:hover{
+	color: #bbb6b6;
+}
+
+/************** footer *******/
+footer{
+	background: #333;
+}
+footer .copyright{}
+footer .copyright p{
+	margin: 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 0;
+}
