@@ -62,7 +62,7 @@ a, a:hover{
 }
 
 .nav-menu-margin{
-	
+
 }
 
 .fas {
@@ -81,13 +81,23 @@ a, a:hover{
 	background: #5F67FF;
 	border-radius: 0 5px 5px 0;
 }
-.body-container .body-h1 h1{
+/*.body-container .body-h1 h1{
 	padding: 15px 0;
 	font-size: 45px;
 	font-weight: 700;	
 	margin-left: 305px;
 	color: #fff;
 
+}*/
+
+.body-container h1{
+	display: inline-flex;
+    font-size: 45px;
+    background: #5f67ff;
+    padding: 20px 100px 20px calc(50% - 645px);
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-weight: 700;
 }
 
 .body-container .body-inner h2{
@@ -144,6 +154,19 @@ a, a:hover{
 	margin-left: 25px;
 }
 
+.join-us .join-us-right{}
+.join-us .join-us-right h3{
+	font-size: 30px;
+    font-weight: 700;
+    color: #5F67FF;
+}
+.join-us .join-us-right h4{
+	font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+.join-us .join-us-right p{}
 /**********************************
 
 ***********************************/
