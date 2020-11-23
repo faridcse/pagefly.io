@@ -62,6 +62,9 @@ img{
 	text-transform: uppercase;
 
 }
+.navbar-collapse .btn-primary:hover{
+	background: #141cc5;
+}
 
 .nav-menu-margin{
 
@@ -257,6 +260,9 @@ img{
 	font-weight: 700;
 	text-transform: uppercase;
 
+}
+.become-our-partner a:hover{
+	background: #141cc5
 }
 
 
