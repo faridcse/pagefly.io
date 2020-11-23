@@ -18,9 +18,15 @@ a, a:hover{
 }
 
 
+img{
+	max-width: 100%;
+}
+
 .pagefly-shadow{
 	box-shadow: 0 0px 21px 0 rgba(95,147,180,0.4);
 }
+
+
 /***********************************
           Your Project css start
 ***********************************/
@@ -28,16 +34,12 @@ a, a:hover{
 /***********************************
       header-section css start
 ***********************************/
-.header-section{
-	width: 100%;
-}
 
-.header-section .navbar{
-    border-bottom: 2px solid #f8f9fa;
-}
-.header-section .navbar-brand {}
-.header-section .navbar-brand img{
-	width: 50%;
+
+.navbar-brand {}
+.navbar-brand img{
+    width: 200px;
+    height: auto;
 }
 
 .navbar {
@@ -71,6 +73,16 @@ a, a:hover{
     padding: 10px;
     border: 1px solid #5f67ff;
     border-radius: 50%;
+}
+
+
+
+.header-section{
+	width: 100%;
+}
+
+.header-section .navbar{
+    border-bottom: 2px solid #f8f9fa;
 }
 
 .header-section .body-container{
